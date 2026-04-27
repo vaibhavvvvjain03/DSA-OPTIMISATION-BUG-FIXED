@@ -1,0 +1,39 @@
+# Local-only challenge resources
+resources/*_100_percent.md
+resources/*_50_percent.md
+resources/crash_log_*.md
+resources/test_report_*.md
+resources/architecture_diagram_*.md
+resources/database_schema_api_contract_*.md
+resources/performance_benchmark_targets_*.md
+
+# Keep sample frontend files private
+resources/fixed_files/*.js
+
+# Hide solution-style backend implementation
+backend/engine_optimized/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Optional private analysis/debug artifacts
+BUG_REPORT.md
+analysis_report.md
+scratchpad_*.md
+checkpoint.json
+task.md
+benchmark.py
+stress_test.py
+
+# Frontend local/build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Optional dataset/privacy protection
+sample_dataset.csv
+*.csv
